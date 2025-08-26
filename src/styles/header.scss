@@ -1,0 +1,33 @@
+@use './variables' as *; //Use remplace import qui devient obsolète
+
+header{
+    padding:10px;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        .navbar{
+    display: flex;
+    }   
+    ul{
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    }
+    &.open{
+        display: block;
+    }
+    nav a.active {
+        color: $red;
+    }
+}
+.burger{
+    display: none;
+}
+
+h1{
+    color:$red;
+    font-family: $logofont;
+}

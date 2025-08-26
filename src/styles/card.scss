@@ -1,0 +1,63 @@
+@use './variables' as *;
+
+.accomodation-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+
+a {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;   
+    display: block;
+  }
+    .card-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+  .tags{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  span{
+  border-radius: 10px;
+  padding: 5px;
+  background: $purple;
+  color: white;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .accomodation-card img {
+    height: 150px;
+  }
+}

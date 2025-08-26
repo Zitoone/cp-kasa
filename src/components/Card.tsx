@@ -1,0 +1,43 @@
+import {Link} from 'react-router-dom'
+import { MdOutlinePlace } from "react-icons/md";
+
+
+type AccomodationCardProps = {
+  id: string;
+  title: string;
+  location: string;
+  pictures: string[];
+  tags: string[];
+  rating: string;
+};
+
+
+const AccomodationCard: React.FC<AccomodationCardProps>=({id,title, location, pictures, tags, rating})=>(
+    <Link to={`/detail/${id}` }>
+        <article>
+            <div>
+                <img src={pictures[0]} alt={title} />
+{/*                 {pictures.map((pic, index)=>(
+                    <img 
+                    key={index}
+                    src={pic}
+                    alt={`${title} image${index+1}`} />
+                ))}   */}              
+            </div>
+            
+            <div className='card-content'>
+                <h3>{title}</h3>
+                <p><MdOutlinePlace />{location}</p>
+                <div className='tags'>
+                    {tags.map((tag, index)=>(
+                        <span key={index}>
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+                <p>{rating}</p>
+            </div>            
+        </article>
+    </Link>
+)
+export default AccomodationCard

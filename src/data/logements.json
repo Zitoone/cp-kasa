@@ -4,8 +4,8 @@
     "title": "Appartement cosy \u00e0 Marseille",
     "location": "Marseille, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?apartment",
-      "https://source.unsplash.com/800x600/?apartment"
+      "/images/marseille1.jpg",
+      "/images/marseille2.jpg"
     ],
     "tags": [
       "Vue mer",
@@ -29,8 +29,8 @@
     "title": "Studio moderne \u00e0 Lyon",
     "location": "Lyon, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?studio",
-      "https://source.unsplash.com/800x600/?studio"
+      "/images/lyon1.jpg",
+      "/images/lyon2.jpg"
     ],
     "tags": [
       "Centre-ville",
@@ -53,8 +53,8 @@
     "title": "Loft design \u00e0 Bordeaux",
     "location": "Bordeaux, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?loft",
-      "https://source.unsplash.com/800x600/?loft"
+      "/images/bordeaux1.jpg",
+      "/images/bordeaux2.jpg"
     ],
     "tags": [
       "Design",
@@ -77,8 +77,8 @@
     "title": "Maison de charme en Bretagne",
     "location": "Quimper, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?house",
-      "https://source.unsplash.com/800x600/?house"
+      "/images/quimper1.jpg",
+      "/images/quimper2.jpg"
     ],
     "tags": [
       "Campagne",
@@ -102,8 +102,8 @@
     "title": "Appartement avec terrasse \u00e0 Nice",
     "location": "Nice, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?terrace",
-      "https://source.unsplash.com/800x600/?terrace"
+      "/images/nice1.jpg",
+      "images/nice2.jpg"
     ],
     "tags": [
       "Terrasse",
@@ -126,8 +126,8 @@
     "title": "Cabane dans les bois",
     "location": "Annecy, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?cabin",
-      "https://source.unsplash.com/800x600/?cabin"
+      "images/annecy1.jpg",
+      "images/annecy2.jpg"
     ],
     "tags": [
       "Nature",
@@ -150,8 +150,8 @@
     "title": "Appartement lumineux \u00e0 Strasbourg",
     "location": "Strasbourg, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?city",
-      "https://source.unsplash.com/800x600/?city"
+      "images/strasbourg1.jpg",
+      "images/strasbourg2.jpg"
     ],
     "tags": [
       "Centre-ville",
@@ -175,8 +175,8 @@
     "title": "Maison avec piscine \u00e0 Aix-en-Provence",
     "location": "Aix-en-Provence, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?pool",
-      "https://source.unsplash.com/800x600/?pool"
+      "images/aix1.jpg",
+      "images/aix2.jpg"
     ],
     "tags": [
       "Piscine",
@@ -200,8 +200,8 @@
     "title": "Studio \u00e9tudiant \u00e0 Lille",
     "location": "Lille, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?student-room",
-      "https://source.unsplash.com/800x600/?student-room"
+      "images/lille1.jpg",
+      "images/lille2.jpg"
     ],
     "tags": [
       "Pratique",
@@ -224,8 +224,8 @@
     "title": "Chalet alpin \u00e0 Chamonix",
     "location": "Chamonix, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?chalet",
-      "https://source.unsplash.com/800x600/?chalet"
+      "images/chamonix1.jpg",
+      "images/chamonix2.jpgt"
     ],
     "tags": [
       "Ski",
@@ -249,8 +249,8 @@
     "title": "Appartement chic \u00e0 Paris",
     "location": "Paris, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?paris",
-      "https://source.unsplash.com/800x600/?paris"
+      "images/paris1.jpg",
+      "images/paris2.jpg"
     ],
     "tags": [
       "Tour Eiffel",
@@ -274,8 +274,8 @@
     "title": "Maison familiale \u00e0 Nantes",
     "location": "Nantes, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?garden",
-      "https://source.unsplash.com/800x600/?garden"
+      "images/nantes1.jpg",
+      "images/nantes2.jpg"
     ],
     "tags": [
       "Famille",
@@ -299,8 +299,8 @@
     "title": "Appartement minimaliste \u00e0 Montpellier",
     "location": "Montpellier, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?minimalist",
-      "https://source.unsplash.com/800x600/?minimalist"
+      "images/montpellier1.jpg",
+      "images/montpellier2.jpg"
     ],
     "tags": [
       "Minimaliste",
@@ -323,8 +323,8 @@
     "title": "Riad traditionnel \u00e0 Marrakech",
     "location": "Marrakech, Maroc",
     "pictures": [
-      "https://source.unsplash.com/800x600/?morocco",
-      "https://source.unsplash.com/800x600/?morocco"
+      "images/marrakech1.jpg",
+      "images/marrakech2.jpg"
     ],
     "tags": [
       "Exotique",
@@ -347,8 +347,8 @@
     "title": "Cabane sur pilotis \u00e0 Arcachon",
     "location": "Arcachon, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?arcachon",
-      "https://source.unsplash.com/800x600/?arcachon"
+      "images/arcachon1.jpg",
+      "images/arcachon2.jpg"
     ],
     "tags": [
       "Original",
@@ -371,8 +371,8 @@
     "title": "Appartement r\u00e9tro \u00e0 Toulouse",
     "location": "Toulouse, France",
     "pictures": [
-      "https://source.unsplash.com/800x600/?retro",
-      "https://source.unsplash.com/800x600/?retro"
+      "images/toulouse1.jpg",
+      "images/toulouse2.jpg"
     ],
     "tags": [
       "Vintage",

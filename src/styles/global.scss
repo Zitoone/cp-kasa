@@ -1,0 +1,18 @@
+@use './variables' as *;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: $mainfont;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a, link, li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 16px;
+}
