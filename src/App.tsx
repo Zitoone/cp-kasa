@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Details from './pages/Details'
 import NotFound from './pages/NotFound'
 
+
 function App(){
   return(
     <Routes>

@@ -23,7 +23,6 @@ const Home=()=>{
         setAccomodations(data as Accomodation[])
     }, [])
     return(
-        <>
         <main>
             <div className="title">
                 <h2>Trouvez votre logement idéal</h2>
@@ -43,7 +42,6 @@ partout dans le monde</p>
                 ))}
             </div>
         </main>
-        </>
     )
 }
 export default Home

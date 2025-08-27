@@ -7,10 +7,15 @@ import Footer from './components/Footer.tsx'
 
 
 import './styles/global.scss'
+//CSS Composants
 import './styles/header.scss'
 import './styles/footer.scss'
 import './styles/card.scss'
+import './styles/carousel.scss'
+
+//CSS Pages
 import './styles/home.scss'
+import './styles/detail.scss'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

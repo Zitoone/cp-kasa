@@ -15,13 +15,7 @@ const AccomodationCard: React.FC<AccomodationCardProps>=({id,title, location, pi
     <Link to={`/detail/${id}` }>
         <article>
             <div>
-                <img src={pictures[0]} alt={title} />
-{/*                 {pictures.map((pic, index)=>(
-                    <img 
-                    key={index}
-                    src={pic}
-                    alt={`${title} image${index+1}`} />
-                ))}   */}              
+                <img src={pictures[0]} alt={title} />          
             </div>
             
             <div className='card-content'>
