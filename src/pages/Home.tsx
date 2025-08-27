@@ -15,8 +15,7 @@ type Accomodation = {
   rating: string;
   description: string;
   equipments: string[];
-};
-
+}
 
 const Home=()=>{
     const [accomodations, setAccomodations]=useState<Accomodation[]>([])
@@ -26,7 +25,7 @@ const Home=()=>{
     return(
         <>
         <main>
-            <div>
+            <div className="title">
                 <h2>Trouvez votre logement idéal</h2>
                 <p>Découvrez des hébergements uniques et vivez comme un local
 partout dans le monde</p>
@@ -44,9 +43,6 @@ partout dans le monde</p>
                 ))}
             </div>
         </main>
-        <footer>
-            Kasa
-        </footer>
         </>
     )
 }

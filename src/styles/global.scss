@@ -6,11 +6,7 @@ body{
     scroll-behavior: smooth;
     font-family: $mainfont;
 }
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-a, link, li{
+a, li{
     text-decoration: none;
     list-style: none;
     color: black;

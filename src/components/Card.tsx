@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import { MdOutlinePlace } from "react-icons/md";
-
+import Rating from './Rating'
 
 type AccomodationCardProps = {
   id: string;
@@ -10,7 +10,6 @@ type AccomodationCardProps = {
   tags: string[];
   rating: string;
 };
-
 
 const AccomodationCard: React.FC<AccomodationCardProps>=({id,title, location, pictures, tags, rating})=>(
     <Link to={`/detail/${id}` }>
@@ -35,7 +34,7 @@ const AccomodationCard: React.FC<AccomodationCardProps>=({id,title, location, pi
                         </span>
                     ))}
                 </div>
-                <p>{rating}</p>
+                <Rating rating={rating} />
             </div>            
         </article>
     </Link>

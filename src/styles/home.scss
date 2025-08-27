@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.title{
+    background: $grey;
+    text-align: center;
+    padding: 50px;
+}
+
+//Rating
+.rating{
+    color:$yellow;
+    >span{
+        color: black;
+    }
+}
