@@ -13,8 +13,7 @@ const Carousel = ({ pictures }: PicsProps) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: false,
-    autoplaySpeed: 1000,
+    autoplay: false
   };
 
   return (
@@ -24,8 +23,7 @@ const Carousel = ({ pictures }: PicsProps) => {
           <div key={index}>
             <img
               src={img}
-              alt={`Slide ${index + 1}`}/>
-              
+              alt={`Slide ${index + 1}`}/>              
           </div>
         ))}
       </Slider>

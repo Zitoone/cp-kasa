@@ -5,13 +5,13 @@ import { BrowserRouter } from 'react-router-dom' //Bibliothèque pour gérer la 
 import Header from './components/Header.tsx'
 import Footer from './components/Footer.tsx'
 
-
 import './styles/global.scss'
 //CSS Composants
 import './styles/header.scss'
 import './styles/footer.scss'
 import './styles/card.scss'
 import './styles/carousel.scss'
+import './styles/collapse.scss'
 
 //CSS Pages
 import './styles/home.scss'

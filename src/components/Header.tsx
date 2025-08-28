@@ -16,7 +16,7 @@ function Header(){
             <nav className={`navbar ${menuOpen ? "open" : ""}`}>
                     <ul>
                     <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Accueil</NavLink></li>
-                    <li><NavLink to="/projects">A propos</NavLink></li>
+                    <li><NavLink to="/about">A propos</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </nav>
