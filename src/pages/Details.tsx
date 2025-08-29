@@ -5,7 +5,7 @@ import { MdOutlinePlace } from "react-icons/md";
 import Collapse from "../components/Collapse";
 import {FaWifi, FaUtensils, FaCar, FaTv, FaDog, FaSnowflake,
 FaBath, FaTree, FaFire, FaToilet, FaCoffee, FaBlender, FaChild, FaHotTub,FaLightbulb } from "react-icons/fa";
-import { LuWashingMachine } from "react-icons/lu";
+import { LuWashingMachine, LuHeater } from "react-icons/lu";
 import { FaElevator } from "react-icons/fa6";
 import Equipments from '../components/Equipment'
 
@@ -57,6 +57,8 @@ const Detail = () => {
             case "Terrasse": return <FaTree /> 
             case "Baignoire": return <FaBath />
             case "Electricité": return <FaLightbulb />
+            case "Cuisine équipée": return <FaUtensils />
+            case "Chauffage": return <LuHeater />
             default: return "❓";
         }
     }

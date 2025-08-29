@@ -2,10 +2,12 @@
 
 .accomodation-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+/*   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr;  
   gap: 20px;
   max-width: 1440px;
   margin: auto;
+  padding: 50px;
 
   a {
     display: flex;
@@ -55,8 +57,18 @@ p{
 }
 
 /* Responsive */
-@media screen and (max-width: 768px) {
-  .accomodation-card img {
+@media screen and (max-width: 1024px) {
+/*   .accomodation-card img {
     height: 150px;
+  } */
+   .accomodation-card{
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+   }
+}
+
+@media screen and (max-width: 720px){
+  .accomodation-card{
+  grid-template-columns: 1fr;
   }
 }

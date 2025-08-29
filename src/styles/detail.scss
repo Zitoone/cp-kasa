@@ -2,6 +2,7 @@
 .detail{
     max-width: 1100px;
     margin: auto;
+    padding: 50px;
 }
 .host{
     padding: 20px 0;
@@ -10,11 +11,18 @@
     align-items: center;
     img{
     width: 10%;
-    height: 10%;
+    height: auto;
     border-radius: 50%;
     }
 }
 .description{
     margin: 30px 0;
     p{font-size: 16px;}
+}
+
+//Responsive
+@media screen and (max-width: 720px){
+    .detail{
+    padding: 20px;
+    }
 }
