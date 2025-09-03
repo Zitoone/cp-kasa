@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Header />
       <App />    
-      <Footer />
+      <Footer /> 
     </BrowserRouter>    
   </React.StrictMode>,
 )

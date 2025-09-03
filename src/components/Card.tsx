@@ -2,6 +2,15 @@ import {Link} from 'react-router-dom'
 import { MdOutlinePlace } from "react-icons/md";
 import Rating from './Rating'
 
+/**
+ * Props pour le composant AccomodationCard
+ * @property {string} id - identifiant unique de l'hébergement
+ * @property {string} title - titre de l'hébergement
+ * @property {string} location - lieu de l'hébergement
+ * @property {string[]} pictures -  Liste de photos de l'hébergement
+ * @property {string[]} tags - Liste des tags de l'hébergement
+ * @property {string} rating - Note de l'hébergement
+ */
 type AccomodationCardProps = {
   id: string;
   title: string;
@@ -11,6 +20,17 @@ type AccomodationCardProps = {
   rating: string;
 };
 
+/**
+ * Fonction du composant qui retourne les informations de l'hébergement passées en propriétés 
+ * @function AccomodationCard
+ * @param {string} id - identifiant unique de l'hébergement
+ * @param {string} title - titre de l'hébergement
+ * @param {string} location - lieu de l'hébergement
+ * @param {string[]} pictures - Liste de photos de l'hébergement
+ * @param {string[]} tags - Liste des tags de l'hébergement
+ * @param {string} rating - Note de l'hébergement
+ * @returns {JSX.Element}
+ */
 const AccomodationCard: React.FC<AccomodationCardProps>=({id,title, location, pictures, tags, rating})=>(
     <Link to={`/detail/${id}` }>
         <article>
